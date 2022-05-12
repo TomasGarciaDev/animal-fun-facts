@@ -4,7 +4,18 @@ import ReactDOM from 'react-dom';
 
 const title = '';
 
-const animalFacts = <h1>{title === '' ? 'Click an animal for a fun fact' : title}</h1>
+const background = <img 
+  className='background'
+  alt='ocean'
+  src={require('./images/ocean.jpg')}
+/>
+
+const animalFacts = (
+  <div>
+    <h1>{title === '' ? 'Click an animal for a fun fact' : title}</h1>
+    { background }
+  </div>
+);
 
 ReactDOM.render(
   animalFacts,
