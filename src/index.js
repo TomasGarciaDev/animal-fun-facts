@@ -25,6 +25,11 @@ for (const animal in animals) {
   />)
 }
 
+function displayFact(e) {
+  var funFact = animals[e.target.alt].facts[Math.floor(Math.random() * animals[e.target.alt].facts.length)];
+  document.getElementById('fact').innerHTML = funFact;
+}
+
 const animalFacts = (
   <div>
     <h1>{title === '' ? 'Click an animal for a fun fact' : title}</h1>
