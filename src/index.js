@@ -12,6 +12,11 @@ const background = <img
   src='/images/ocean.jpg'
 />
 
+function displayFact(e) {
+  var funFact = animals[e.target.alt].facts[Math.floor(Math.random() * animals[e.target.alt].facts.length)];
+  document.getElementById('fact').innerHTML = funFact;
+}
+
 let images = [];
 
 for (const animal in animals) {
@@ -22,13 +27,10 @@ for (const animal in animals) {
     src={animals[animal].image}
     arial-label={animal}
     role='button'
+    onClick={displayFact}
   />)
 }
 
-function displayFact(e) {
-  var funFact = animals[e.target.alt].facts[Math.floor(Math.random() * animals[e.target.alt].facts.length)];
-  document.getElementById('fact').innerHTML = funFact;
-}
 
 const animalFacts = (
   <div>
@@ -37,6 +39,9 @@ const animalFacts = (
     <div className='animals'>
     { images }
     </div>
+    <p id='fact'>
+      
+    </p>
   </div>
 );
 
