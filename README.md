@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Animal Fun Facts - JSX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About the Project
+This is a simple exercise on JSX from Codecademy "Learn React" course.
+This app is created React.js and Node.js.
 
-## Available Scripts
+## Project Overview
+Visiting users can click on an animal (Dolphin, Lobster or Starfish) and a random fact about the selected animal will pop up on the screen. Facts are randombly selected from a list of potetials optios
 
-In the project directory, you can run:
+## Getting started locally
 
-### `npm start`
+### Prerequisities
+- [node](https://nodejs.org/en/download/)
+- [npm](https://www.npmjs.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Make sure preqrequisites are installed
 
-### `npm test`
+2. Clone the repo:
+```
+https://github.com/TomasGarciaDev/animal-fun-facts.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. cd into the directory
 
-### `npm run build`
+4. Install NPM packages
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Run client-side React with:
+```
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+6. Visit: 
+```
+http://localhost:3000/ 
+```
+### What you should see 
+![Screenshot 2022-05-24 at 13 26 24](https://user-images.githubusercontent.com/86299300/170024215-7626e8f4-5401-443f-ba9e-f686d90bd081.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## App Usage
+Click on one of the animals and a fact about the animal will pop up.
+![Screenshot 2022-05-24 at 13 30 08](https://user-images.githubusercontent.com/86299300/170024763-138f9306-563f-4edb-b9d8-76e9434a4c5d.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks and hope you enjoy the app!
